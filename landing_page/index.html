@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leyendas del Asfalto – Autos Icónicos</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">LEYENDAS DEL ASFALTO</div>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#hero" class="header__link">NOSOTROS</a></li>
+                    <li class="header__item"><a href="#features" class="header__link">AUTOS</a></li>
+                    <li class="header__item"><a href="#testimonials" class="header__link">RESEÑAS</a></li>
+                    <li class="header__item"><a href="#pricing" class="header__link">PRECIOS</a></li>
+                    <li class="header__item"><a href="#contact" class="header__link">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+            <button class="header__cta-btn header__cta-btn--primary" onclick="scrollToSection('pricing')">COMPRAR AHORA</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero__container container">
+            <h1 class="hero__title">LEYENDAS DEL ASFALTO</h1>
+            <p class="hero__subtitle">No son solo vendemos autos. Vendemos  máquinas que rompen reglas, desafiaron la ley... y la historia; vendemos autos clasicos y exclusivos "leyendas del automovilismo", contactanos para obtener mas informacion.</p>
+            <button class="hero__cta-btn" onclick="scrollToSection('pricing')">VER AUTOS Y PRECIOS</button>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <div class="features__container container">
+            <h2 class="section-title">UN POCO DE HISTORIA DE LO QUE VENDEMOS</h2>
+            <div class="features__grid">
+                <!-- Tarjeta 1: BMW M3 GTR -->
+                <article class="feature-card">
+                    <img src="assets/img/a4aecb72e6aac06d2642657ab6983b74.jpg" alt="BMW M3 GTR" class="feature-card__image">
+                    <h3 class="feature-card__title">BMW M3 GTR</h3>
+                    <p class="feature-card__description">
+                        El BMW M3 GTR es recordado como un icónico modelo de competición y una leyenda del automovilismo, inmortalizado gracias a su controvertida historia y a su fama en el mundo de los videojuegos. Equipado con un potente motor V8, en lugar del tradicional seis cilindros en línea de los M3 estándar, este coche dominó la American Le Mans Series (ALMS) en 2001, lo que llevó a que el reglamento fuera modificado para forzar la retirada de BMW de la competición. Sin embargo, su estatus de culto se consolidó años más tarde como el vehículo protagonista del popular videojuego Need for Speed: Most Wanted (2005), donde su distintiva decoración en azul y plata y su impresionante rendimiento lo convirtieron en un sueño para toda una generación de jugadores.
+                    </p>
+                    <a href="#pricing" class="feature-card__btn feature-card__btn--primary">VER DETALLES</a>
+                </article>
+
+                <!-- Tarjeta 2: Ferrari 250 GTO -->
+                <article class="feature-card feature-card--highlighted">
+                    <img src="assets/img/images.jpeg" alt="Ferrari 250 GTO" class="feature-card__image">
+                    <h3 class="feature-card__title">FERRARI 250 GTO</h3>
+                    <p class="feature-card__description">
+                        El Ferrari 250 GTO es considerado por muchos como el automóvil deportivo más bello jamás construido. Fabricado entre 1962 y 1964, solo se produjeron 36 unidades, lo que lo convierte en uno de los autos más raros y codiciados del mundo. Su valor actual supera los $70 millones en subastas. Es una obra de arte sobre ruedas, diseñada para la competición pero con una elegancia que trasciende el tiempo. Su historia está llena de victorias en circuitos legendarios y su presencia en museos y colecciones privadas lo convierten en un ícono de la ingeniería italiana.
+                    </p>
+                    <a href="#pricing" class="feature-card__btn feature-card__btn--primary">VER DETALLES</a>
+                </article>
+
+                <!-- Tarjeta 3: Porsche 959 -->
+                <article class="feature-card">
+                    <img src="assets/img/porche-959.jpeg" alt="Porsche 959" class="feature-card__image">
+                    <h3 class="feature-card__title">PORSCHE 959</h3>
+                    <p class="feature-card__description">
+                        El Porsche 959 fue el primer superdeportivo moderno, lanzado en 1986. Con 444 HP y tecnología revolucionaria para su época, incluyendo tracción integral y suspensión ajustable, marcó un antes y un después en la industria automotriz. Fue diseñado para competir en el Rally París-Dakar, donde demostró su versatilidad y robustez. Hoy en día, es un objeto de deseo para coleccionistas y su valor ronda los $1.2 millones. Es un testimonio de cómo la innovación puede convertirse en leyenda.
+                    </p>
+                    <a href="#pricing" class="feature-card__btn feature-card__btn--primary">VER DETALLES</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials__container container">
+            <h2 class="section-title">OPINIONES DE NUESTROS CLIENTES</h2>
+            <div class="testimonials__grid">
+                <blockquote class="testimonial-card">
+                    <h4 class="testimonial-card__name">María López</h4>
+                    <p class="testimonial-card__role">Coleccionista de autos clásicos</p>
+                    <p class="testimonial-card__comment">“Compré el BMW M3 GTR y no me arrepiento. La atención al cliente fue excelente y el auto llegó en perfecto estado. ¡Una experiencia inolvidable!”</p>
+                </blockquote>
+                <blockquote class="testimonial-card testimonial-card--alt">
+                    <h4 class="testimonial-card__name">Carlos Fernández</h4>
+                    <p class="testimonial-card__role">Ingeniero automotriz</p>
+                    <p class="testimonial-card__comment">“El Ferrari 250 GTO es una joya. Lo compré para mi colección y estoy muy satisfecho. El precio era justo y la documentación auténtica.”</p>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <h4 class="testimonial-card__name">Ana Martínez</h4>
+                    <p class="testimonial-card__role">Entusiasta de carreras</p>
+                    <p class="testimonial-card__comment">“El Porsche 959 es una máquina increíble. Lo compré para estudiar su ingeniería y no me decepcionó. ¡Un verdadero ícono del automovilismo!”</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="pricing">
+        <div class="pricing__container container">
+            <h2 class="section-title">NUESTROS PRODUCTOS</h2>
+            <div class="pricing__grid">
+                <div class="pricing-plan">
+                    <img src="assets/img/a4aecb72e6aac06d2642657ab6983b74.jpg" alt="BMW M3 GTR Lateral" class="pricing-plan__image">
+                    <h3 class="pricing-plan__title">BMW M3 GTR</h3>
+                    <p class="pricing-plan__price">$1.5M</p>
+                    <ul class="pricing-plan__features">
+                        <li>Unidad original</li>
+                        <li>Historico de competición</li>
+                        <li>gran potencia</li>
+                    </ul>
+                    <button class="pricing-plan__cta-btn" onclick="scrollToSection('contact')">COMPRAR AHORA</button>
+                </div>
+                <div class="pricing-plan pricing-plan--recommended">
+                    <span class="pricing-plan__badge">MÁS CODICIADO</span>
+                    <img src="assets/img/images.jpeg" alt="Ferrari 250 GTO Lateral" class="pricing-plan__image">
+                    <h3 class="pricing-plan__title">FERRARI 250 GTO</h3>
+                    <p class="pricing-plan__price">$70M</p>
+                    <ul class="pricing-plan__features">
+                        <li>Único en su tipo</li>
+                        <li>Historia legendaria</li>
+                        <li>Reconocimiento mundial</li>
+                    </ul>
+                    <button class="pricing-plan__cta-btn pricing-plan__cta-btn--primary" onclick="scrollToSection('contact')">COMPRAR AHORA</button>
+                </div>
+                <div class="pricing-plan">
+                    <img src="assets/img/porche-959.jpeg" alt="Porsche 959 Lateral" class="pricing-plan__image">
+                    <h3 class="pricing-plan__title">PORSCHE 959</h3>
+                    <p class="pricing-plan__price">$1.2M</p>
+                    <ul class="pricing-plan__features">
+                        <li>Unidad histórica</li>
+                        <li>Tecnología revolucionaria</li>
+                        <li>Diseño inovador para su epoca</li>
+                    </ul>
+                    <button class="pricing-plan__cta-btn" onclick="scrollToSection('contact')">COMPRAR AHORA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="contact__container container">
+            <h2 class="section-title">¿Te interesa uno de estos clasicos del asfalto?</h2>
+            <p class="contact__subtitle">Déjanos tu mensaje sobre cual te interesa. Te responderemos lo mas rapido posible.</p>
+            <form class="contact-form">
+                <div class="contact-form__group">
+                    <label for="name" class="contact-form__label">NOMBRE</label>
+                    <input type="text" id="name" class="contact-form__input" required>
+                    <span class="contact-form__error-message">Este campo es obligatorio</span>
+                </div>
+                <div class="contact-form__group">
+                    <label for="email" class="contact-form__label">EMAIL</label>
+                    <input type="email" id="email" class="contact-form__input" required>
+                    <span class="contact-form__error-message">Este campo es obligatorio</span>
+                </div>
+                <div class="contact-form__group">
+                    <label for="message" class="contact-form__label">MENSAJE</label>
+                    <textarea id="message" class="contact-form__textarea" required placeholder="¿Qué auto te interesa?"></textarea>
+                    <span class="contact-form__error-message">Este campo es obligatorio</span>
+                </div>
+                <button type="submit" class="contact-form__submit-btn">ENVIAR MENSAJE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4 class="footer__title">CONTACTO</h4>
+                    <p>leyendasdelasfalto@email.com</p>
+                    <p>+1 457-123-4567</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">ENLACES</h4>
+                    <ul class="footer__links">
+                        <li><a href="#hero">INICIO</a></li>
+                        <li><a href="#pricing">AUTOS</a></li>
+                        <li><a href="#testimonials">RESEÑAS</a></li>
+                        <li><a href="#pricing">PRECIOS</a></li>
+                        <li><a href="#contact">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__title">REDES</h4>
+                    <ul class="footer__social">
+                        <li><a href="#">INSTAGRAM</a></li>
+                        <li><a href="#">YOUTUBE</a></li>
+                        <li><a href="#">FACEBOOK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 LEYENDAS DEL ASFALTO. TODOS LOS DERECHOS RESERVADOS.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
